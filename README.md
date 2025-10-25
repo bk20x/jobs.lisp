@@ -9,7 +9,7 @@
     "test"
     (cmd! "ls -l")
     "argtest" 
-    (cmd! (format nil "bober= ~a~%") (arg! "-bober")))
+    (cmd! (format nil "bober= ~a~%" (arg! "-bober"))))
 
 ;; ^ you can run these by name if this was `script.lisp`:
 ;; ./script.lisp test
